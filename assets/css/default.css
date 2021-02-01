@@ -232,16 +232,22 @@ nav li a {
 
 .project-list .cell-category {
   display: table-cell;
-  padding: 0 100px 0 0
+
+  padding: 10px 100px 0 0
 }
 
 .project-list .all-projects {
-  padding: 37px 0 0px 0;
+  padding: 400px 100px 200px 0;
   cursor: pointer
 }
 
 .project-list .all-projects span {
-  padding: 0 0 0 10px;
+  padding: 300px 100px 0 10px;
+  height: 100%;
+  width: 47%;
+  top:100px;
+  right: 25px;
+  bottom: 25px;
   vertical-align: -2px
 }
 
