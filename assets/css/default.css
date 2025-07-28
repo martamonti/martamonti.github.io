@@ -1487,7 +1487,7 @@ footer .footer-contact a {
 
 
 .intro {
-  height: 90vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1495,4 +1495,30 @@ footer .footer-contact a {
 
 .intro-testi {
   text-align: center;
+}
+
+.testo {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: 'Gotham-Book', sans;
+  vertical-align: baseline
+}
+
+.titolo {
+  font-family: 'UniversLTPro-65Bold';
+  font-weight: 800;
+}
+
+.sinossi {
+  background-color: #58a6c0;
+}
+
+.video {
+  background-color: #f9ba00;
+}
+
+.bianco {
+  color: white !important;
 }
