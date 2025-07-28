@@ -1484,3 +1484,15 @@ footer .footer-contact a {
     transform: translate(-50%, -50%)
   }
 }
+
+
+.intro {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-testi {
+  text-align: center;
+}
