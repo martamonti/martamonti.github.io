@@ -1487,7 +1487,7 @@ footer .footer-contact a {
 
 
 .intro {
-  height: 60vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1515,10 +1515,26 @@ footer .footer-contact a {
   background-color: #58a6c0;
 }
 
-.video {
+.video, .compra {
   background-color: #f9ba00;
 }
 
 .bianco {
   color: white !important;
+}
+
+
+.bottone {
+  color: #f9ba00 !important;
+  background-color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 40px;
+}
+
+#linkScopri {
+  text-decoration: none !important;
+  color: #f9ba00 !important;
 }
