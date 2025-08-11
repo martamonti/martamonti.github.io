@@ -1527,14 +1527,34 @@ footer .footer-contact a {
 .bottone {
   color: #f9ba00 !important;
   background-color: white;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   border-radius: 40px;
 }
 
 #linkScopri {
   text-decoration: none !important;
   color: #f9ba00 !important;
+
 }
+
+.larghezza {
+   width: 70% !important; /* 100% - 15% - 15% */
+    margin: 0 auto !important;
+}
+.intro img {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px; /* desktop */
+    width: 100%;      /* per adattarsi */
+}
+
+@media (max-width: 768px) {
+    .intro img {
+        max-width: 300px; /* 60% di 500px */
+        margin-left: 20px;
+    }
+}
+
