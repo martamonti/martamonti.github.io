@@ -19,7 +19,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: 'Gotham-Book', sans;
+  font-family: 'Gotham-Book', sans-serif;
   vertical-align: baseline
 }
 
@@ -58,16 +58,10 @@ table {
 
 .loading span:nth-child(2) {
   animation-delay: .2s;
-  -webkit-animation-delay: .2s;
-  -moz-animation-delay: .2s;
-  -o-animation-delay: .2s
 }
 
 .loading span:nth-child(3) {
   animation-delay: .4s;
-  -webkit-animation-delay: .4s;
-  -moz-animation-delay: .4s;
-  -o-animation-delay: .4s
 }
 
 img:not([src]) {
@@ -79,11 +73,7 @@ body {
   color: #000;
   font-family: 'Gotham-Book', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-backface-visibility: hidden
 }
 
 ul, li {
@@ -96,7 +86,6 @@ a {
   color: #000;
   text-decoration: none;
   transition: 0.3s ease;
-  -webkit-transition: 0.3s ease
 }
 
 a:hover {
@@ -283,8 +272,6 @@ nav li a {
 }
 
 .project-thumb-big .project-description .projectInfo {
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
   hyphens: auto
 }
 
@@ -423,45 +410,25 @@ nav li a {
 }
 
 .flexGridWrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center
 }
 
 .flexGridWrapper-stage {
   height: 75vh;
-  display: -ms-flexbox;
-  display: -webkit-box;
   display: flex;
-  -ms-flex-direction: row;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   flex-direction: row;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
   justify-content: center;
-  -ms-flex-line-pack: stretch;
   align-content: stretch;
-  -ms-flex-align: start;
-  -webkit-box-align: start;
   align-items: flex-start
 }
 
 .gridItem-full {
   width: 100%;
   box-sizing: border-box;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center
 }
 
@@ -473,8 +440,6 @@ nav li a {
   width: 50%;
   padding: 7.5px;
   box-sizing: border-box;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center
 }
 
@@ -486,8 +451,6 @@ nav li a {
   width: 50%;
   box-sizing: border-box;
   padding: 7.5px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center
 }
 
@@ -498,8 +461,6 @@ nav li a {
 .gridItem-bottom {
   -ms-flex-item-align: end;
   align-self: flex-end;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start
 }
 
@@ -572,8 +533,6 @@ nav li a {
 
 .project-text {
   padding: 0px 0 50px 0;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
   hyphens: auto
 }
 
@@ -681,7 +640,6 @@ nav li a {
 
 .project-footer .project-next span {
   text-decoration: underline;
-  -webkit-transition: 0.3s ease;
   transition: 0.3s ease
 }
 
@@ -698,8 +656,6 @@ nav li a {
 }
 
 .project-text-mobile {
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
   hyphens: auto;
   line-height: 36px;
   margin: 5px 0 50px 0
@@ -738,8 +694,6 @@ nav li a {
 
   .gridItem-half2 {
     width: 100%;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
     justify-content: start;
     padding: 0 15px 0 15px
   }
@@ -830,11 +784,7 @@ nav li a {
     width: 100%;
     box-sizing: border-box;
     padding: 0 15px 0 15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center
   }
 
@@ -895,8 +845,6 @@ nav li a {
 }
 
 .about-text {
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
   hyphens: auto;
   margin: 0 0 100px 0
 }
@@ -907,8 +855,6 @@ nav li a {
 
 .contact-wrapper {
   max-width: 280px;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
   hyphens: auto;
   margin: 10px auto 0 auto;
   line-height: 26px
@@ -1024,8 +970,6 @@ nav li a {
   }
 
   .about-text-mobile {
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
     hyphens: auto;
     line-height: 36px
   }
@@ -1176,8 +1120,6 @@ footer .soc-link {
 
 .imprint-space {
   margin: 0 0 60px 0;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
   hyphens: auto
 }
 
@@ -1195,9 +1137,7 @@ footer .soc-link {
 }
 
 .fade {
-  transition: 0.4s ease;
-  -webkit-transition: 0.4s ease;
-  -o-transition: 0.4s ease
+  transition: 0.4s ease
 }
 
 
@@ -1228,57 +1168,46 @@ footer .soc-link {
 
 .axis {
   opacity: 0.5;
-  -webkit-transform: rotateY(-30deg);
   transform: rotateY(-30deg)
 }
 
 .axis:first-child {
-  -webkit-transition-duration: .2s;
   transition-duration: .2s
 }
 
 .axis:nth-child(2) {
-  -webkit-transition-duration: .4s;
   transition-duration: .4s
 }
 
 .axis:nth-child(3) {
-  -webkit-transition-duration: .6s;
   transition-duration: .6s
 }
 
 .axis:nth-child(4) {
-  -webkit-transition-duration: .8s;
   transition-duration: .8s
 }
 
 .axis:nth-child(5) {
-  -webkit-transition-duration: 1s;
   transition-duration: 1s
 }
 
 .axis:nth-child(6) {
-  -webkit-transition-duration: 1.2s;
   transition-duration: 1.2s
 }
 
 .axis:nth-child(7) {
-  -webkit-transition-duration: 1.4s;
   transition-duration: 1.4s
 }
 
 .axis:nth-child(8) {
-  -webkit-transition-duration: 1.6s;
   transition-duration: 1.6s
 }
 
 .axis:nth-child(9) {
-  -webkit-transition-duration: 1.8s;
   transition-duration: 1.8s
 }
 
 .axis:nth-child(10) {
-  -webkit-transition-duration: 2s;
   transition-duration: 2s
 }
 
@@ -1358,7 +1287,7 @@ footer .soc-link {
 }
 
 .sans-r {
-  font-family: Gotham;
+  font-family: 'Gotham-Book';
   font-weight: normal;
   font-style: normal;
   font-size: 33px;
@@ -1415,7 +1344,7 @@ footer .soc-link {
 }
 
 .sans-xl-b {
-  font-family: Gotham;
+  font-family: 'Gotham-Book';
   font-weight: normal;
   font-style: normal;
   font-size: 30px;
@@ -1469,7 +1398,6 @@ footer .soc-link {
     font-size: 42px;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
   }
 }
@@ -1491,7 +1419,7 @@ footer .soc-link {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: 'Gotham-Book', sans;
+  font-family: 'Gotham-Book', sans-serif;
   vertical-align: baseline
 }
 
